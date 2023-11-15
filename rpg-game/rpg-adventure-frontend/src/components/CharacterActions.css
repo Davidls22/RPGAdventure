@@ -1,0 +1,114 @@
+/* Additional styling for a spooky theme (you can customize this further) */
+body {
+    background-color: #1a1a1a;
+    margin: 10;
+    padding: 10;
+}
+
+/* Styling for the main container */
+div {
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Press Start 2P', cursive;
+    /* border: 2px solid #8b0000;
+    border-radius: 10px; */
+}
+
+/* Styles for the form elements */
+label {
+    margin-right: 10px;
+    color: #ff4500;
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: 'Press Start 2P', cursive;
+    border: 1px solid #ff4500;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+button {
+    background-color: #8b0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+/* Styles for the characters table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #8b0000;
+    color: #fff;
+}
+
+th, td {
+    border: 1px solid #8b0000; /* Reduced border thickness */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Styling for the adventure button */
+button.adventure-btn {
+    background-color: #2d2d2d;
+    color: #fff;
+    border: 2px solid #ff4500;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.adventure-btn:hover {
+    background-color: #ff4500;
+}
+
+/* Styling for the inventory section */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-family: 'Press Start 2P', cursive;
+    color: #ff4500;
+}
+
+/* Styling for the new item form */
+div.add-item-container {
+    margin-top: 20px;
+}
+
+/* Styling for the new item form inputs */
+div.add-item-container label, div.add-item-container input {
+    margin-right: 10px;
+    color: #ff4500;
+}
+
+/* Styling for the new item form button */
+div.add-item-container button {
+    background-color: #8b0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 8px 12px;
+    transition: background-color 0.3s;
+}
+
+div.add-item-container button:hover {
+    background-color: #ff4500;
+}

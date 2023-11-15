@@ -1,0 +1,178 @@
+
+[
+  {
+    "id": 1,
+    "title": "The Mysterious Forest",
+    "description": "You find yourself at the edge of a mysterious forest.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Enter the forest",
+        "nextQuestId": 2
+      },
+      {
+        "id": 2,
+        "text": "Camp for the night",
+        "nextQuestId": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Dark Path",
+    "description": "As you enter the forest, you encounter a dark path.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Follow the dark path",
+        "nextQuestId": 4
+      },
+      {
+        "id": 2,
+        "text": "Turn back",
+        "nextQuestId": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Restful Night",
+    "description": "You decide to camp for the night and rest.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Continue your journey",
+        "nextQuestId": 4
+      },
+      {
+        "id": 2,
+        "text": "Stay at the camp",
+        "nextQuestId": null
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "The Crossroads",
+    "description": "You reach a crossroads with three different paths.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Take the left path",
+        "nextQuestId": 5
+      },
+      {
+        "id": 2,
+        "text": "Take the middle path",
+        "nextQuestId": 6
+      },
+      {
+        "id": 3,
+        "text": "Take the right path",
+        "nextQuestId": 7
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The Left Path",
+    "description": "You find yourself in a dense forest with strange sounds.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Explore further",
+        "nextQuestId": 8
+      },
+      {
+        "id": 2,
+        "text": "Retrace your steps",
+        "nextQuestId": 4
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "The Middle Path",
+    "description": "You come across a river with a rickety bridge.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Cross the bridge",
+        "nextQuestId": 9
+      },
+      {
+        "id": 2,
+        "text": "Look for an alternative route",
+        "nextQuestId": 4
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "The Right Path",
+    "description": "You encounter a steep mountain with a hidden cave entrance.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Enter the cave",
+        "nextQuestId": 10
+      },
+      {
+        "id": 2,
+        "text": "Climb the mountain",
+        "nextQuestId": 4
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Enchanted Grove",
+    "description": "You discover an enchanted grove with magical creatures.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Interact with the creatures",
+        "nextQuestId": 11
+      },
+      {
+        "id": 2,
+        "text": "Leave the grove",
+        "nextQuestId": 4
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Raging River",
+    "description": "The bridge collapses, and you find yourself in a raging river.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Swim to the shore",
+        "nextQuestId": 12
+      },
+      {
+        "id": 2,
+        "text": "Hold onto debris",
+        "nextQuestId": 13
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Hidden Cave",
+    "description": "The cave is filled with traps. A giant boulder starts rolling toward you.",
+    "choices": [
+      {
+        "id": 1,
+        "text": "Dodge to the side",
+        "nextQuestId": 14
+      },
+      {
+        "id": 2,
+        "text": "Hide in a crevice",
+        "nextQuestId": 15
+      }
+    ]
+  }
+]
